@@ -9,10 +9,12 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "build-linux": "electron-packager . app --platform linux --arch x64 --out dist-linux/",
+    "deb64": "electron-installer-debian --src dist-linux/discord-gifs-linux-x64/ --dest dist-linux/installers/ --arch amd64"
   },
   "keywords": [],
-  "author": "voidw",
+  "author": "Chris-Bitler",
   "license": "MIT",
   "config": {
     "forge": {
