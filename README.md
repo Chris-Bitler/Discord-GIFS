@@ -11,3 +11,8 @@ If you get a smartscreen error, go past it.
 
 # License
 MIT. See LICENSE.md
+
+# Libraries used
+- Electron
+- React
+- Material-UI
